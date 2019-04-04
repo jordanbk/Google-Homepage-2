@@ -1,0 +1,130 @@
+#container {
+	font-family: helvetica;
+	color: #000;
+	text-align: center;
+	background-color: white;
+	word-spacing: 15px;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
+}
+
+#header, #footer, #main {
+	min-width: 960px;
+}
+
+#header {
+	height: 72px;
+}
+
+#header-nav-left {
+	position: relative;
+	float: left;
+	display: inline-block;
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+	align-items: stretch;
+	margin-right: 10px;
+	font-size: 14px;
+	margin-top: 0px;
+	word-spacing: 15px;
+}
+
+#header-nav-right {
+	float: right;
+	margin-top: 0px;
+	margin-right: 10px;
+	font-size: 14px;
+	justify-content: space-around;
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+	align-items: stretch;
+	word-spacing: 15px;
+}
+
+
+#header-nav-right-grid {
+	opacity: 100%;
+}
+
+.logo {
+	display: block;
+	width: 390px; height: 200px;
+}
+
+#search-bar {
+	border-color: #bbb #dcdcdc #dcdcdc #dcdcdc;
+	border: 1px solid;
+	width: 484px;
+	margin: 25px auto 16px auto; 
+	padding: 4px 9px;
+	font-size: 12pt;
+	border-radius: 20px;
+}
+
+#search-bar:hover {
+	border-color: #bbb;
+}
+
+#search-bar:focus {
+	border-color: black;
+}
+
+#footer {
+	border-top: 1px solid;
+	border-color: #ddd ;
+	background-color: #ededee;
+	display: inline-block;
+	padding: 10px;
+	height: 20px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	font-family: helvetica;
+}
+
+#footer [class="left"] {
+	float: left;
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 14px;
+	margin-top: 0px;
+	opacity: .70;
+	font-family: helvetica;
+	padding: 0px 0px 30px 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+	word-wrap: normal;
+	word-spacing: 15px;
+
+}
+
+#footer [class="right"] {
+	float: right;
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 14px;
+	margin-top: 0px;
+	opacity: .70;
+	justify-content: space-around;
+	word-spacing: 15px;
+}
+
+input [type="submit"]{
+	color: #444;
+	padding: 5px 8px;
+	border: 1px solid #dcdcdc;
+	border-radius: 3px;
+	font-size: 11px;
+	font-weight: bold;
+}
